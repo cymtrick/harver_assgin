@@ -1,0 +1,14 @@
+{
+    "name": "Image Blend",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Image blend service",
+    "main": "./index.js",
+    "module": "commonJS",
+    "dependencies": {
+        "@mapbox/blend": "^2.0.1",
+        "minimist": "^1.2.6",
+        "prettier": "^2.7.1",
+        "request": "^2.88.2"
+    }
+}
