@@ -42,7 +42,7 @@ const blendImages = () => {
   );
 };
 
-const call_images = (messages) => {
+const call_to_blend_images = (messages) => {
   messages.map((message, index) => {
     let req = {
       url:
@@ -73,8 +73,8 @@ const call_images = (messages) => {
   });
 };
 
-images = call_images([
+images = call_to_blend_images([
   { message: greeting },
   { message: who },
-  { message: 'I love cats' },
+  { message: 'I love cats' }
 ]);
